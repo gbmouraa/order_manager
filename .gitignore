@@ -1,0 +1,48 @@
+# Build results
+bin/
+obj/
+publish/
+out/
+
+# Visual Studio
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.rsuser
+*.userprefs
+
+# Visual Studio Code
+.vscode/
+
+# NuGet
+*.nupkg
+packages/
+project.lock.json
+project.fragment.lock.json
+
+# .NET
+*.dll
+*.exe
+*.pdb
+*.cache
+
+# IDE
+.idea/
+*.swp
+*.swo
+*.swn
+
+# Logs
+*.log
+logs/
+
+# OS
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Backup
+*.bak
+*.backup
