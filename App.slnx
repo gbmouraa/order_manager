@@ -1,5 +1,22 @@
 <Solution>
   <Folder Name="/01 Presentation/">
-    <Project Path="App.UI.Web/App.UI.Web.csproj" Id="27d2255e-ecf4-45f6-8007-acb4ec49d130" />
+    <Project Path="App.UI.Web/App.UI.Web.csproj" Id="27d2255e-ecf4-45f6-8007-acb4ec49d130">
+      <BuildDependency Project="App.Domain/App.Domain.csproj" />
+      <BuildDependency Project="App.Services/App.Services.csproj" />
+    </Project>
+  </Folder>
+  <Folder Name="/02 Application/">
+    <Project Path="App.Services/App.Services.csproj" Id="df5f6594-656e-4037-9533-6387f7de66ce">
+      <BuildDependency Project="App.Domain/App.Domain.csproj" />
+      <BuildDependency Project="App.Infrastructure.Data/App.Infrastructure.Data.csproj" />
+    </Project>
+  </Folder>
+  <Folder Name="/03 Domain/">
+    <Project Path="App.Domain/App.Domain.csproj" Id="9ce9e199-83e7-4093-9960-36dffaa3c638" />
+  </Folder>
+  <Folder Name="/04 Infrastructure/">
+    <Project Path="App.Infrastructure.Data/App.Infrastructure.Data.csproj" Id="1f245b95-e303-46d6-b4f0-a9c7f10c282f">
+      <BuildDependency Project="App.Domain/App.Domain.csproj" />
+    </Project>
   </Folder>
 </Solution>
